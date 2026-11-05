@@ -229,7 +229,7 @@ function AbaMoedasScreen() {
       <View style={styles.buscaContainer}>
         <MaterialIcons name="search" size={22} color="#94A3B8" style={{ marginRight: 8 }} />
         <TextInput
-          placeholder="Digite o nome da moeda ou sila"
+          placeholder="Digite o nome da moeda ou sigla"
           value={busca}
           onChangeText={setBusca}
           style={styles.inputBusca}
